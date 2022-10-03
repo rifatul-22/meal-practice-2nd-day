@@ -1,0 +1,147 @@
+/* common css section start  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* common css section end  */
+/* nav css section start  */
+nav{
+    background-color: #ffece1;
+    box-shadow: 0px 1px 5px 4px rgba(146, 127, 116, 0.21);
+    z-index: 9;
+    position: relative;
+}
+nav .row{
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav .logo{
+    width: 10%;
+}
+nav .menu{
+    width: 65%;
+}
+nav .shop_cart{
+    width: 25%;
+}
+nav .menu ul{
+    display: flex;
+    justify-content: center;
+}
+nav .menu ul li a{
+    display: inline-block;
+    color: #649483;
+    font-size: 19px;
+    text-transform: capitalize;
+    padding: 52px 21px;
+    transition: 0.5s;
+}
+nav .menu ul li a:hover{
+    color: #dd7017;
+}
+nav .shop_cart ul{
+    display: flex;
+}
+nav .shop_cart ul li a{
+    padding: 9px;
+    color: #649483;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+nav .shop_cart ul li a i{
+    font-size: 25px;
+}
+nav .shop_cart ul li .menu_btn{
+    background-color: #649483;
+    padding: 11px 9px;
+    color: #ffece1;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+nav .shop_cart ul li:hover .menu_btn{
+    background-color: #dd7017;
+}
+/* nav css section end  */
+/* Banner css section start  */
+#banner{
+    background: #ffece1;
+}
+#banner .banner_img,
+#banner .banner_content{
+    width: 50%;
+}
+#banner .banner_img{
+    text-align: center;
+}
+#banner .banner_img img{
+    width: 100%;
+}
+#banner .banner_img h4{
+    font-size: 19px;
+    font-weight: 700;
+    color: #649483;
+    text-transform: uppercase;
+}
+#banner .banner_img p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #649483;
+    width: 365px;
+    margin: auto;
+}
+#banner .banner_content h2{
+    font-size: 75px;
+    color: #dd7017;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#banner .banner_content a{
+    text-transform: uppercase;
+    color: #649483;
+    font-size: 19px;
+    font-weight: 700;
+    border: 2px solid #649483;
+    padding: 13px 14px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#banner .banner_content a:hover{
+    background-color: #649483;
+    color: #fff4ee;
+}
+#banner .banner_content .meal_option{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dd7017;
+    padding: 18px 21px;
+    border-radius: 40px;
+    margin-top: 52px;
+}
+#banner .banner_content .meal_option .meal_iteam{
+    width: 25%;
+}
+#banner .banner_content .meal_option .meal_iteam p{
+    font-size: 12px;
+    color: #ffece1;
+    text-align: center;
+}
+/* Banner css section end  */
